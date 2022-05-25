@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <script src="index.pack.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-block">
+            <h1 class="heading">Metric/Imperial unit conversion</h1>
+            <input id="initial" type="number" value="20" onchange="changeUnits()">
+        </div>
+        <div class="display-block">
+            <div>
+                <h4 class="unit-heading">Length (Meter/Feet)</h4>
+                <p class="unit-value" id="length">20 meters = 65.616 feet | 20 feet = 6.096 meters</p>
+            </div>
+            <div>
+                <h4 class="unit-heading">Volume (Liters/Gallons) </h4>
+                <p class="unit-value" id="volume">20 liters = 5.284 gallons | 20 gallons = 75.708 liters </p>
+            </div>
+            <div>
+                <h4 class="unit-heading">Mass (Kilograms/Pounds)</h4>
+                <p class="unit-value" id="mass">20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos</p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

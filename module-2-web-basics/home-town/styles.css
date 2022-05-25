@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Nunito Sans;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero-background {
+    background: url('images/hero-bg.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-heading {
+    background: #8CD867;
+    padding: 5px 12px;
+    border-radius: 10px;
+    color: #363537;
+    margin: 0;
+}
+
+#hero-description {
+    padding: 5px 12px;
+    margin: 14px 0;
+    background: #FDCA40;
+    border-radius: 10px;
+    color: #313628;
+    width: 420px;
+}
+
+.activity-section {
+    width: 33.33%;
+    margin: 60px 0;
+}
+
+
+.images-section {
+    display: flex;
+    height: 350px;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #F1F2EE;
+
+}
+
+.activity-img {
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.activity-heading {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+.guide-section {
+    width: 400px;
+    height: 294px;
+    background: #77BA99;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 5px solid #262730;
+    border-radius: 10px;
+}
+
+
+.img-avatar {
+    width: 180px;
+    border-radius: 10px;
+    height: 248.67px;
+    margin-left: 12px;
+
+}
+
+.guide-section:hover {
+    background: #1985A1;
+    color: #D7FDEC;
+}
+
+.guide-description {
+    margin: 0 7px;
+}
